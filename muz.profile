@@ -7,7 +7,7 @@
 /**
  * Implements hook_form_FORM_ID_alter().
  */
-function vg3_form_install_configure_form_alter(&$form, $form_state) {
+function muz_form_install_configure_form_alter(&$form, $form_state) {
   // basic site information
   $form['site_information']['site_name']['#default_value'] = 'Donschih Iurii';
   $form['site_information']['site_mail']['#default_value'] = 'muz@mail.ru';

@@ -1,5 +1,5 @@
-name = VG3
-description = Install VG3 with commonly used features pre-configured.
+name = MUZ
+description = Install MUZ with commonly used features pre-configured.
 version = VERSION
 core = 7.x
 
@@ -37,7 +37,6 @@ dependencies[] = file_entity
 dependencies[] = menu_import
 dependencies[] = panels
 dependencies[] = pathauto
-dependencies[] = quicktabs
 dependencies[] = special_menu_items
 dependencies[] = strongarm
 dependencies[] = token

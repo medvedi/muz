@@ -1,4 +1,4 @@
-; makefile for VG3
+; makefile for MUZ
 
 ; define core version and drush make compatibility
 
