@@ -154,7 +154,4 @@ libraries[nivo-slider][overwrite] = TRUE
 
 ; themes
 
-projects[andromeda][type] = theme
-projects[andromeda][download][type] = git
-projects[andromeda][download][url] = http://git.drupal.org/project/andromeda.git
-projects[andromeda][download][tag] = 7.x-2.x-dev
+

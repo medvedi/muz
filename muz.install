@@ -20,8 +20,8 @@ function muz_install() {
   user_role_grant_permissions(DRUPAL_AUTHENTICATED_RID, array('access content'));
 
   theme_disable(array('bartik'));
-  theme_enable(array('vg3'));
-  variable_set('theme_default', 'vg3');
+  theme_enable(array('bartik'));
+  variable_set('theme_default', 'bartik');
   variable_set('admin_theme', '1');
   variable_set('node_admin_theme', '1');
 
