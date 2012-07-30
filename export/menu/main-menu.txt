@@ -1,0 +1,6 @@
+HOME|<front>|
+PORTOFOLIO|portfolio||expanded
+-PHOTO|portfolio/photo|
+-VIDEO|portfolio/video|
+INFO|node/3|
+CONTACTS|node/2|

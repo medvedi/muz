@@ -1,0 +1,59 @@
+name = VG3
+description = Install VG3 with commonly used features pre-configured.
+version = VERSION
+core = 7.x
+
+
+; core
+
+dependencies[] = block
+dependencies[] = contextual
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = toolbar
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+
+; contrib
+
+dependencies[] = ctools
+dependencies[] = page_manager
+
+dependencies[] = libraries
+dependencies[] = jw_player
+dependencies[] = media
+dependencies[] = colorbox
+dependencies[] = features
+dependencies[] = file_entity
+dependencies[] = menu_import
+dependencies[] = panels
+dependencies[] = pathauto
+dependencies[] = quicktabs
+dependencies[] = special_menu_items
+dependencies[] = strongarm
+dependencies[] = token
+dependencies[] = entity
+
+dependencies[] = views
+dependencies[] = views_ui
+dependencies[] = views_content
+
+
+;!!! only for developers use, remove for prod
+dependencies[] = devel
+dependencies[] = module_filter
+;!!! only for developers use, remove for prod
+
+
+; features
+
+
