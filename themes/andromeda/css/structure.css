@@ -53,7 +53,7 @@ body.not-front h1#page-title{
 
 /**
  * Sidebar blocks
- */ 
+ */
 #sidebar .block {
   margin-bottom:50px;
 }
@@ -83,7 +83,7 @@ body.not-front h1#page-title{
 
 /**
  * Footer blocks
- */ 
+ */
 #footer .block{
   width:172px;
   float:left;
@@ -342,10 +342,10 @@ img.image-space-left{
   text-indent:-9999px;
 }
 
-.nivo-controlNav a.active,
+/*.nivo-controlNav a.active,
 .nivo-controlNav a:hover{
   background:#111;
-}
+}*/
 
 .nivo-caption p{
   padding:5px;

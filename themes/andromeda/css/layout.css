@@ -85,7 +85,8 @@ body.with-slideshow #header{
 #site-name a{
   color:#FFFFFF;
   text-decoration:none;
-  font-family: SansationLight;
+/*  font-family: SansationLight;*/
+  font-family: "Warnock Pro","Goudy Old Style","Palatino","Book Antiqua",Georgia,serif;
 }
 
 #site-name a:hover {
@@ -232,4 +233,21 @@ body.with-slideshow #main{
   overflow: hidden;
   padding: 10px 0;
   text-align: center;
+}
+
+#main-page p {
+  color: #666666;
+  font-family: "Warnock Pro","Goudy Old Style","Palatino","Book Antiqua",Georgia,serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 27px;
+  text-align: center;
+}
+#main-page .panel-col {
+  border-bottom: dashed 1px #666666;
+  border-top: dashed 1px #666666;
+}
+#main-page .pane-content {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
