@@ -260,21 +260,25 @@ body.with-slideshow #main{
 #webform-client-form-4 input,
 #webform-client-form-4 textarea{
   -moz-border-bottom-colors: none;
-    -moz-border-image: none;
-    -moz-border-left-colors: none;
-    -moz-border-right-colors: none;
-    -moz-border-top-colors: none;
-    background: none repeat scroll 0 0 #E8E8E8;
-    border-color: #CBCBCB -moz-use-text-color -moz-use-text-color #CBCBCB;
-    border-right: medium none;
-    border-style: solid none none solid;
-    border-width: 1px medium medium 1px;
-    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.19) inset;
-    color: #959595;
-    font-family: 'Trebuchet MS',Arial,Helvetica,sans-serif;
-    font-size: 12px;
-    margin: 0;
-    outline: medium none;
-    padding: 10px;
-    position: relative;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background: none repeat scroll 0 0 #E8E8E8;
+  border-color: #CBCBCB -moz-use-text-color -moz-use-text-color #CBCBCB;
+  border-right: medium none;
+  border-style: solid none none solid;
+  border-width: 1px medium medium 1px;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.19) inset;
+  color: #959595;
+  font-family: 'Trebuchet MS',Arial,Helvetica,sans-serif;
+  font-size: 12px;
+  margin: 0;
+  outline: medium none;
+  padding: 10px;
+  position: relative;
+}
+#photo-gallery img:hover {
+  opacity: 0.4;
+  background: url('../images/magnify.png') no-repeat center;
 }
