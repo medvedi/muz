@@ -28,10 +28,28 @@ function muz_main_settings_menu_default_menu_links() {
     'expanded' => '0',
     'weight' => '-50',
   );
-  // Exported menu link: main-menu:node/2
-  $menu_links['main-menu:node/2'] = array(
+  // Exported menu link: main-menu:contacts
+  $menu_links['main-menu:contacts'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => 'node/2',
+    'link_path' => 'contacts',
+    'router_path' => 'contacts',
+    'link_title' => 'CONTACTS',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => '0',
+    'external' => '0',
+    'has_children' => '0',
+    'expanded' => '0',
+    'weight' => '0',
+  );
+  // Exported menu link: main-menu:node/3
+  $menu_links['main-menu:node/3'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'node/3',
     'router_path' => 'node/%',
     'link_title' => 'INFO',
     'options' => array(
@@ -45,24 +63,6 @@ function muz_main_settings_menu_default_menu_links() {
     'has_children' => '0',
     'expanded' => '0',
     'weight' => '-48',
-  );
-  // Exported menu link: main-menu:node/3
-  $menu_links['main-menu:node/3'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => 'node/3',
-    'router_path' => 'node/%',
-    'link_title' => 'CONTACTS',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-    ),
-    'module' => 'menu',
-    'hidden' => '0',
-    'external' => '0',
-    'has_children' => '0',
-    'expanded' => '0',
-    'weight' => '-47',
   );
   // Exported menu link: main-menu:portfolio
   $menu_links['main-menu:portfolio'] = array(

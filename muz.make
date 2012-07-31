@@ -119,6 +119,11 @@ projects[entity][download][type] = git
 projects[entity][download][url] = http://git.drupal.org/project/entity.git
 projects[entity][download][tag] = 7.x-1.0-rc3
 
+projects[webform][subdir] = "contrib"
+projects[webform][download][type] = git
+projects[webform][download][url] = http://git.drupal.org/project/webform.git
+projects[webform][download][tag] = 7.x-3.18
+
 ;!!! only for developers use, remove for prod
 
 projects[devel][subdir] = "contrib"
