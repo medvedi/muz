@@ -16,7 +16,7 @@
           <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
         </a>
       <?php endif; ?>
-  
+
       <?php if ($site_name || $site_slogan): ?>
         <div id="name-and-slogan">
           <?php if ($site_name): ?>
@@ -32,17 +32,17 @@
               </h1>
             <?php endif; ?>
           <?php endif; ?>
-  
+
           <?php if ($site_slogan): ?>
             <div id="site-slogan">
               <?php print $site_slogan; ?>
             </div>
           <?php endif; ?>
-  
+
         </div> <!-- /#name-and-slogan -->
       <?php endif; ?>
     </div> <!-- /#site-logo-and-name -->
-  
+
     <?php if ($page['header']) : ?>
       <?php print drupal_render($page['header']); ?>
     <?php else : ?>
@@ -61,8 +61,8 @@
         )); ?>
       </div> <!-- /#main-menu -->
     <?php endif; ?>
-    
-    
+
+
   </div> <!-- /.section -->
 </div> <!-- /#header -->
 
@@ -72,7 +72,7 @@
       <?php print drupal_render($page['slideshow']);; ?>
     </div>
   <?php endif; ?>
-  
+
   <?php if($page['highlight']) : ?>
     <div id="highlight">
       <?php print drupal_render($page['highlight']); ?>
@@ -85,7 +85,7 @@
       <?php if ($breadcrumb): ?>
         <div id="breadcrumb"><?php print $breadcrumb; ?></div>
       <?php endif; ?>
-    
+
       <?php print render($title_prefix); ?>
       <?php if ($title): ?>
         <h1 class="title" id="page-title">
@@ -107,13 +107,38 @@
       <?php print render($page['content']); ?>
       <?php print $feed_icons; ?>
     </div> <!-- /#content -->
-    
+
     <?php if($page['sidebar']) : ?>
       <div id="sidebar">
         <?php print drupal_render($page['sidebar']); ?>
       </div>
     <?php endif; ?>
   </div> <!-- /#main -->
+
+
+  <?php
+    $path = isset($_GET['q']) ? $_GET['q'] : '<front>';
+    if ($path == 'portfolio') :
+  ?>
+      <div class="grid-parent">
+        <div class="grid-child grid-50 grid-space-right">
+        <h2>PHOTO</h2>
+        <p class="photo"></p>
+        <!-- Your content here -->
+        <p>Photo gallery</p>
+        <h3><a href="portfolio/photo">Read More</a></h3>
+    </div>
+        <div class="grid-child grid-50">
+        <h2>VIDEO</h2>
+        <p class="video"></p>
+        <!-- Your content here -->
+        <p>Video gallery. Look it.</p>
+        <h3><a href="portfolio/video">Read More</a></h3>
+    </div>
+      </div>
+  <?php endif; ?>
+
+
 </div></div> <!-- /#page, /#page-wrapper -->
 <?php if($page['footer']) : ?>
   <div id="footer">

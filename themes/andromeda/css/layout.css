@@ -235,6 +235,10 @@ body.with-slideshow #main{
   text-align: center;
 }
 
+ /**
+ * Custom css
+ */
+#portofolio-page p,
 #main-page p {
   color: #666666;
   font-family: "Warnock Pro","Goudy Old Style","Palatino","Book Antiqua",Georgia,serif;
@@ -242,21 +246,21 @@ body.with-slideshow #main{
   font-weight: normal;
   font-size: 27px;
   text-align: center;
+  margin-top: 20px;
 }
+
+#portofolio-page .panel-col,
 #main-page .panel-col {
   border-bottom: dashed 1px #666666;
   border-top: dashed 1px #666666;
 }
+
+#portofolio-page .pane-conten,
 #main-page .pane-content {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-/*#video-page .file-video-youtube {
-  width: 360px;
-  float: left;
-  margin: 10px;
-}*/
 #webform-client-form-4 input,
 #webform-client-form-4 textarea{
   -moz-border-bottom-colors: none;
@@ -278,6 +282,7 @@ body.with-slideshow #main{
   padding: 10px;
   position: relative;
 }
+
 #photo-gallery .views-row .views-field-field-picture a {
   background: url("../images/magnify.png") no-repeat scroll center center #FFFFFF;
   display: block;
@@ -291,4 +296,17 @@ body.with-slideshow #main{
 }
 #photo-gallery .item-list ul li {
   list-style: none;
+}
+
+#page .video {
+  background: url("../images/video-icon.png") no-repeat scroll center center transparent;
+  width: 100px;
+  height: 100px;
+  border: 5px solid #EEEEEE;
+}
+#page .photo {
+  background: url("../images/photos.png") no-repeat scroll center center transparent;
+  width: 100px;
+  height: 100px;
+  border: 5px solid #EEEEEE;
 }
