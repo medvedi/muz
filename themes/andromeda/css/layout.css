@@ -278,7 +278,17 @@ body.with-slideshow #main{
   padding: 10px;
   position: relative;
 }
+#photo-gallery .views-row .views-field-field-picture a {
+  background: url("../images/magnify.png") no-repeat scroll center center #FFFFFF;
+  display: block;
+  float: left;
+  margin: 15px 10px 0 5px;
+  max-height: 100px;
+  min-width: 150px;
+}
 #photo-gallery img:hover {
   opacity: 0.4;
-  background: url('../images/magnify.png') no-repeat center;
+}
+#photo-gallery .item-list ul li {
+  list-style: none;
 }
