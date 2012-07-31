@@ -244,6 +244,7 @@ function muz_main_settings_field_default_fields() {
             'image' => 0,
             'video' => 'video',
           ),
+          'browser_plugins' => array(),
           'progress_indicator' => 'throbber',
         ),
         'type' => 'media_generic',

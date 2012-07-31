@@ -25,7 +25,6 @@ features[image][] = slideshow
 features[menu_custom][] = main-menu
 features[menu_links][] = main-menu:<front>
 features[menu_links][] = main-menu:contacts
-features[menu_links][] = main-menu:node/3
 features[menu_links][] = main-menu:portfolio
 features[menu_links][] = main-menu:portfolio/photo
 features[menu_links][] = main-menu:portfolio/video

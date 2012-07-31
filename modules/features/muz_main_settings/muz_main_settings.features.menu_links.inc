@@ -46,24 +46,6 @@ function muz_main_settings_menu_default_menu_links() {
     'expanded' => '0',
     'weight' => '0',
   );
-  // Exported menu link: main-menu:node/3
-  $menu_links['main-menu:node/3'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => 'node/3',
-    'router_path' => 'node/%',
-    'link_title' => 'INFO',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-    ),
-    'module' => 'menu',
-    'hidden' => '0',
-    'external' => '0',
-    'has_children' => '0',
-    'expanded' => '0',
-    'weight' => '-48',
-  );
   // Exported menu link: main-menu:portfolio
   $menu_links['main-menu:portfolio'] = array(
     'menu_name' => 'main-menu',
@@ -124,7 +106,6 @@ function muz_main_settings_menu_default_menu_links() {
   // Included for use with string extractors like potx.
   t('CONTACTS');
   t('HOME');
-  t('INFO');
   t('PHOTO');
   t('PORTOFOLIO');
   t('VIDEO');
